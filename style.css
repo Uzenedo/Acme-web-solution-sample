@@ -1,0 +1,189 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    padding: 0%;
+    background-color: black;
+}
+
+.container-1{
+    text-align: center;
+   background: url(./designs/coding.jpg);
+   background-color: #333333;
+}
+
+.sub-container-1{
+    color:#ffffff;
+    padding: 7%;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.sub-container-1 h1{
+    font-size: 200%;
+}
+
+.readmore{
+    color:#ffffff;
+    font-size: 100%;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #333333;
+}
+    
+.container-2{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+.container-2 h2{
+    padding: 1%;
+}
+
+.sub-container-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 2%;
+}
+
+.p1{
+    padding-left: 22%;
+    padding-right: 3%;
+}
+
+.p2{
+    padding-left: 3%;
+    padding-right: 22%;
+}
+
+.container-3{
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.features{
+   background-color: #ffffff;
+   text-align: center;
+   padding-bottom: 8%;
+}
+
+.image{
+    width: 100%;
+    height: 20%;
+}
+
+.features h3{
+    padding-top: 8%;
+}
+
+.features p{
+    padding: 8%;
+}
+
+.container-4{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5%;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.container-4 p{
+    padding-top: 2%;
+}
+
+.container-5{
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+
+.cu{
+    background-color: blue;
+    padding: 3%;
+}
+
+.cu h3{
+    padding-bottom: 9%;
+}
+
+.cu p{
+    padding-bottom: 5%;
+}
+.cu a{
+    color: white;
+}
+
+.aoc{
+    background-color: #333333;
+    padding: 3%;
+}
+
+.aoc h3{
+    padding-bottom: 9%;
+}
+
+.aoc p{
+    padding-bottom: 5%;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #ffffff;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+
+.p4{
+    padding-left: 20%;
+}
+
+@media (max-width: 720px) {
+    .sub-container-2{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .p1{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .p2{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+    }
+
+    .container-3{
+        grid-template-columns: 1fr;
+        gap: 1%;   
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    .container-5{
+        grid-template-columns: 1fr;   
+    }
+
+    .footer{
+        grid-template-columns: 1fr;   
+    }
+    .p4{
+        padding-left: 0%;
+    }
+}
