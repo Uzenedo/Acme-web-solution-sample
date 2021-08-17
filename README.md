@@ -3,7 +3,7 @@
 ## Screenshot
 
 - Desktop View
-![](./designs/Desktop-View.png)
+  ![](./designs/Desktop-View.png)
 
 - Mobile View
-![](./designs/Mobile-View.png)
+  ![](./designs/Mobile-View.png)
